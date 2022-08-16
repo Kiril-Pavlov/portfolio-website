@@ -1,9 +1,19 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
+  const navbarLinks = [
+    {url:"#",title:"Home"},
+    {url:"#",title:"About Me"},
+    {url:"#",title:"Skills"},
+    {url:"#",title:"Education"},
+    {url:"#",title:"Experience"},
+    {url:"#",title:"Projects"},
+    {url:"#",title:"Contact"}
+  ]
   return (
     <div className="App">
-      <h1>Working</h1>
+      <Navbar navbarLinks={navbarLinks}/>
     </div>
   );
 }
