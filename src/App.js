@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
   const navbarLinks = [
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar navbarLinks={navbarLinks}/>
+      <Hero />
     </div>
   );
 }
