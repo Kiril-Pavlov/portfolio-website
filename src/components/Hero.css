@@ -49,6 +49,43 @@
 
 .hero-content button:hover{
     cursor: pointer;
-    font-size: 2.1rem;
+    padding: 5px 50px;
+    border-radius: 20px;
     transition: all 250ms;
+}
+
+@media  screen and (max-width: 900px) {
+    .hero-content{
+        bottom: 20%;
+        left: 3%;
+        right: 3%;
+        /* backdrop-filter: blur(3px); */
+    }
+
+    .hero-title{
+        font-size: 3rem;
+        padding: 0px;
+        text-shadow: 5px 5px 5px black;
+        backdrop-filter: blur(1px);
+        text-align: center;
+    }
+
+    .hero-content h2{
+        font-size: 2rem;
+        padding: 0px;
+        text-shadow: 5px 5px 5px black;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .hero-content button{
+        font-size: 1.5rem;
+        border-radius: 10px;
+        border: 1px solid white;
+        transition: all 250ms;
+        display: block;
+        margin: 20px auto;
+    }
+
+
 }
