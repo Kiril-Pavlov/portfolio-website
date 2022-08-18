@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Skills from './components/Skills';
 
 import heroImg from "./assets/hero-background.jpg";
 
@@ -18,6 +19,8 @@ function App() {
     <div className="App">
       <Navbar navbarLinks={navbarLinks}/>
       <Hero imageSrc={heroImg}/>
+
+      <Skills />
     </div>
   );
 }
