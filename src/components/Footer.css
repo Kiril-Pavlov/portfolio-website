@@ -1,0 +1,43 @@
+.footer-container{
+    background-color: black;
+    border-top: 3px solid gray;
+    padding: 30px 20%;
+}
+
+.socials-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icon{
+    font-size: 50px;
+    color: gray;
+    transition: all 250ms;
+}
+
+.social-icon:hover{
+    color: white;
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.copyright{
+    color: gray;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    text-align: center;
+}
+
+@media  screen and (max-width: 900px) {
+    .footer-container{
+        padding: 20px 10%;
+    }
+
+    .social-icon{
+        font-size: 30px;
+    }
+
+    .copyright{
+        font-size: 1rem;
+    }
+}
