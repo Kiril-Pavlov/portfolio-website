@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 
@@ -20,7 +21,7 @@ function App() {
     <div className="App">
       <Navbar navbarLinks={navbarLinks}/>
       <Hero imageSrc={heroImg}/>
-
+      <About />
       <Skills />
 
       <Footer />
