@@ -2,14 +2,14 @@
 .about-title{
     text-align: center;
     padding: 20px;
-    margin: 20px 20%;
+    margin: 20px 15%;
     border-radius: 20px;
     font-size: 3rem;
     background-color: var(--primary-color);
 }
 
 .about-container{
-    margin: 0px 20%;
+    margin: 0px 15%;
     padding: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -36,6 +36,7 @@
 
 .about-content p{
     padding: 20px;
+    text-align: justify;
 }
 
 @media  screen and (max-width: 900px) {

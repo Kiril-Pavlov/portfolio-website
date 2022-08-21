@@ -1,0 +1,56 @@
+
+
+
+
+.projects-container{
+    border: 1px solid red;
+    margin: 0px 15%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.card-container{
+    border: 3px solid green;
+    width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-container img{
+    width: 100%;
+    position: relative;
+}
+
+.skills-used{
+    width: 500px;    
+}
+
+.short-description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.short-description h3{
+    padding: 10px;
+}
+
+.short-description p{
+    padding: 10px;
+    margin: 10p;
+    text-align: center;
+    height: 50px;
+}
+
+.more-info{
+    padding: 5px 20px 5px 20px;
+    font-size: 1rem;
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+
+}
