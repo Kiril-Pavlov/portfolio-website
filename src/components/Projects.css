@@ -14,15 +14,12 @@
 
 .card-container{
     border: 3px solid green;
-    width: 450px;
+    width: 400px;
     border-radius: 20px;
     overflow: hidden;
 }
 
-.card-container img{
-    width: 100%;
-    position: relative;
-}
+
 
 .skills-used{
     width: 500px;    
