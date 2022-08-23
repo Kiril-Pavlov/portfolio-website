@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 import heroImg from "./assets/hero-background.jpg";
+import Contact from './components/Contact';
 
 function App() {
   const navbarLinks = [
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );
