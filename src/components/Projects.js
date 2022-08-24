@@ -37,10 +37,20 @@ const Projects = () => {
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 height: 220,
-                                width: 450
+                                width: 400
                             }
                             }>
-                            {item.skills.join(" - ")}
+                            <ul>
+                                {/* {item.skills.join(" - ")} */}
+                                {item.skills.map((item)=>{
+                                    return(
+                                        <li className='skills-used-list-item'>
+                                            {item}
+                                        </li>
+                                    )
+                                })}
+                            </ul>
+                                
                         </div>
                         <div className='short-description'>
                             <h3>{item.name}</h3>

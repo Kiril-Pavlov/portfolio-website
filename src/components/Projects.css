@@ -22,7 +22,26 @@
 
 
 .skills-used{
-    width: 500px;    
+    width: 400px;   
+}
+
+.skills-used ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+.skills-used-list-item{
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
 }
 
 .short-description{
