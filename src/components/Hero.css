@@ -13,8 +13,11 @@
 
 .hero-content{
     position: absolute;
-    bottom: 40%;
+    bottom: 35%;
     left: 5%;
+    padding: 20px;
+    border-radius: 100px 0px 100px 0px;
+    background-color: rgba(0, 0, 0, 0.6);
     /* backdrop-filter: blur(3px); */
 }
 
@@ -44,19 +47,19 @@
     font-size: 2rem;
     border-radius: 10px;
     border: 1px solid white;
-    transition: all 250ms;
+    transition: all 500ms;
 }
 
 .hero-content button:hover{
     cursor: pointer;
     padding: 5px 50px;
     border-radius: 20px;
-    transition: all 250ms;
+    transition: all 500ms;
 }
 
 @media  screen and (max-width: 900px) {
     .hero-content{
-        bottom: 20%;
+        bottom: 15%;
         left: 3%;
         right: 3%;
         /* backdrop-filter: blur(3px); */

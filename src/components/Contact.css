@@ -1,0 +1,23 @@
+.contact-container{
+    border: 3px solid lime;
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact-container h3{
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+}
