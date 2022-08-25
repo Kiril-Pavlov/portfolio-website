@@ -7,10 +7,10 @@
 }
 
 .projects-title{
-    font-size: 3rem;
+    font-size: 4rem;
     color: black;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     color: var(--primary-color);
     font-family: var(--decorative-font);
 }
