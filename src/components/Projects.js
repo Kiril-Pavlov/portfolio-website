@@ -9,59 +9,59 @@ const Projects = () => {
             name: "ToDo App",
             img: `${todoImg}`,
             description: "A ToDo App using React.js",
-            skills: ["html", "css", "react.js"]
+            skills: ["html", "css", "react.js"],
+            url: "https://pizza-app-react-kiril.netlify.app/"
         },
         {
             name: "Pizza App",
             img: `${pizzaImg}`,
             description: "Pizza App in React with MongoDB backend",
-            skills: ["html","css","react.jd", "mongodb"]
+            skills: ["html", "css", "react.jd", "mongodb"],
+            url: "https://pizza-app-react-kiril.netlify.app/"
         },
         {
             name: "Pizza App",
             img: `${pizzaImg}`,
             description: "Pizza App in React with MongoDB backend",
-            skills: ["html","css","react.jd", "mongodb"]
+            skills: ["html", "css", "react.jd", "mongodb"],
+            url: "https://pizza-app-react-kiril.netlify.app/"
         }
     ]
     return (
         <div className='projects-container'>
-            {projectsList.map((item) => {
-                return (
-                    <div className='card-container' key={item.name}>
-
-                        <div className='skills-used'
-                            style={{
-                                backgroundImage: `url(${item.img})`,
-                                backgroundRepeat: "no-repeat",
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                                height: 220,
-                                width: 400
-                            }
-                            }>
-                            <ul>
-                                {/* {item.skills.join(" - ")} */}
-                                {item.skills.map((item)=>{
-                                    return(
-                                        <li className='skills-used-list-item'>
-                                            {item}
-                                        </li>
-                                    )
-                                })}
-                            </ul>
-                                
+            <h3 className='projects-title'>Projects</h3>
+            <div className='projects-list-container'>
+                {projectsList.map((item) => {
+                    return (
+                        <div className='project-card-container' key={item.name}>
+                            <div className='project-card-name'>
+                                {item.name}
+                            </div>
+                            <div className='project-card-image'>
+                                <img src={item.img} alt={item.name} />
+                            </div>
+                            <div className='project-card-skills'>
+                                <ul>
+                                    {/* {item.skills.join(" - ")} */}
+                                    {item.skills.map((item) => {
+                                        return (
+                                            <li>
+                                                {item}
+                                            </li>
+                                        )
+                                    })}
+                                </ul>
+                            </div>
+                            <div className='project-card-description'>
+                                {item.description}
+                            </div>
+                            <div className='project-card-link'>
+                                <a href={item.url}>Link to project ...</a>
+                            </div>
                         </div>
-                        <div className='short-description'>
-                            <h3>{item.name}</h3>
-                            <p>{item.description}</p>
-                            <button className='more-info'>
-                                More Info ...
-                            </button>
-                        </div>
-                    </div>
-                )
-            })}
+                    )
+                })}
+            </div>
         </div>
     )
 }

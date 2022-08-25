@@ -13,9 +13,9 @@
 }
 
 .navbar-logo{
-    color: white;
-    font-family: "MonteCarlo", cursive;
-    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-family: var(--decorative-font);
+    font-size: 1.5rem;
 }
 
 .navbar-list{
@@ -28,11 +28,11 @@
 }
 
 .navbar-link{
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     text-decoration: none;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin: 0px 5px;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
@@ -52,6 +52,12 @@
 }
 
 @media  screen and (max-width: 900px) {
+    .navbar-logo{
+        color: var(--primary-color);
+        font-family: var(--decorative-font);
+        font-size: 1.4rem;
+    }
+
     .navbar-list{
         display: flex;
         flex-direction: column;
@@ -61,7 +67,7 @@
         top: 70px;
         left: -100%;
         width: 100%;
-        height: 500px;
+        height: 450px;
         transition: all 0.5s;
     }
 
@@ -81,7 +87,9 @@
 
     .navbar-link{
         display: flex;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: white;
         height: 100%;
         width: 100%;
         justify-content: center;
@@ -94,6 +102,7 @@
 
     .navbar-link:hover{
         opacity: 0.9;
+        color: var(--primary-color);
     }
     
     .hamburger-button{

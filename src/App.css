@@ -5,5 +5,8 @@
 }
 
 :root{
-  --primary-color:orange;
+  --primary-color:#ffa31a;
+  --secondary-color: #4d0099;
+
+  --decorative-font:"MonteCarlo", cursive;
 }

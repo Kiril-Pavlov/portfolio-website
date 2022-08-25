@@ -22,12 +22,12 @@
 }
 
 .hero-title{
-    color: white;
+    color: var(--primary-color);
     font-size: 4rem;
     padding: 15px;
     text-shadow: 5px 5px 5px black;
-    backdrop-filter: blur(2px);
-    font-family: "MonteCarlo", cursive;
+    /* backdrop-filter: blur(2px); */
+    font-family: var(--decorative-font);
 }
 
 .hero-content h2{
@@ -54,6 +54,7 @@
     cursor: pointer;
     padding: 5px 50px;
     border-radius: 20px;
+    color: var(--primary-color);
     transition: all 500ms;
 }
 
