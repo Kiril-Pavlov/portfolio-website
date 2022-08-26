@@ -124,4 +124,13 @@
     .projects-container {
         margin: 0px 0%;
     }
+
+    .projects-list-container {
+        margin: 0px 0%;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-gap: 20px;
+    }
 }
