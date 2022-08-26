@@ -30,7 +30,7 @@ const Skills = () => {
     ]
 
     return (
-        <div className='skills-container'>
+        <div className='skills-container' id='skills'>
             <h2 className='skills-title'>Skills</h2>
             <div className='skill-cards-container'>
                 {skillsList.map((item) => {

@@ -16,7 +16,7 @@
 }
 
 .projects-list-container {
-    margin: 0px 15%;
+    margin: 0px 10%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -27,8 +27,7 @@
 .project-card-container {
     display: block;
     margin: 20px auto;
-
-    width: 350px;
+    width: 325px;
     height: 450px;
     border-radius: 25px;
     overflow: hidden;
@@ -42,7 +41,7 @@
 }
 
 .project-card-name {
-    width: 350px;
+    width: 325px;
     height: 50px;
     background-color: var(--primary-color);
     font-size: 2rem;
@@ -53,17 +52,17 @@
 }
 
 .project-card-image {
-    width: 350px;
+    width: 325px;
     height: 200px;
 }
 
 .project-card-image img {
-    width: 350px;
+    width: 325px;
     height: 200px;
 }
 
 .project-card-skills {
-    width: 350px;
+    width: 325px;
     height: 25px;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -88,7 +87,7 @@
 }
 
 .project-card-description {
-    width: 350px;
+    width: 325px;
     height: 125px;
     background-color: white;
     text-align: center;
@@ -100,14 +99,14 @@
 }
 
 .project-card-link {
-    width: 350px;
+    width: 325px;
     height: 50px;
     background-color: var(--secondary-color);
 }
 
 .project-card-link a {
     text-decoration: none;
-    width: 350px;
+    width: 325px;
     height: 50px;
     color: white;
     display: flex;
@@ -126,7 +125,7 @@
     }
 
     .projects-list-container {
-        margin: 0px 0%;
+        margin: 0px 5%;
         padding: 0px;
         display: flex;
         flex-wrap: wrap;

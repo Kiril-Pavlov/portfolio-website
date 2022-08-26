@@ -5,13 +5,13 @@ import aboutImg from "../assets/me-picture-2.png"
 
 const About = () => {
     return (
-        <div>
+        <div id='about'>
             <h2 className='about-title'>
                 About me
             </h2>
             <div className='about-container'>
                  <div className='about-image'>
-                    <img src={aboutImg} alt="Picture from me" />
+                    <img src={aboutImg} alt="Me" />
                 </div>
                 <div className='about-content'>
                     <p>

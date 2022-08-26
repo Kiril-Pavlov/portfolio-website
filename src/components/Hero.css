@@ -13,7 +13,7 @@
 
 .hero-content{
     position: absolute;
-    bottom: 35%;
+    bottom: 30%;
     left: 5%;
     padding: 20px;
     border-radius: 100px 0px 100px 0px;
@@ -67,7 +67,7 @@
     }
 
     .hero-title{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding: 0px;
         text-shadow: 5px 5px 5px black;
         backdrop-filter: blur(1px);
@@ -75,7 +75,7 @@
     }
 
     .hero-content h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding: 0px;
         text-shadow: 5px 5px 5px black;
         font-style: italic;
@@ -83,7 +83,7 @@
     }
 
     .hero-content button{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         border-radius: 10px;
         border: 1px solid white;
         transition: all 250ms;
