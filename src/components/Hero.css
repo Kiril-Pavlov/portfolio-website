@@ -43,8 +43,6 @@
     margin: 10px;
     background-color: transparent;
     backdrop-filter: blur(10px);
-    color: white;
-    font-size: 2rem;
     border-radius: 10px;
     border: 1px solid white;
     transition: all 500ms;
@@ -54,6 +52,18 @@
     cursor: pointer;
     padding: 5px 50px;
     border-radius: 20px;
+    color: var(--primary-color);
+    transition: all 500ms;
+}
+
+.hero-link{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+.hero-link:hover{
     color: var(--primary-color);
     transition: all 500ms;
 }
