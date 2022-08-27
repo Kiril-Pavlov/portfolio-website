@@ -29,7 +29,7 @@
     display: block;
     margin: 20px auto;
     width: 325px;
-    height: 450px;
+    height: 410px;
     border-radius: 25px;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
@@ -54,18 +54,18 @@
 
 .project-card-image {
     width: 325px;
-    height: 200px;
+    height: 160px;
 }
 
 .project-card-image img {
     width: 325px;
-    height: 200px;
+    height: 160px;
 }
 
 .project-card-skills {
     width: 325px;
     height: 25px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--primary-color);
 }
 
 .project-card-skills ul {
@@ -90,26 +90,27 @@
 .project-card-description {
     width: 325px;
     height: 125px;
-    background-color: white;
+    background-color: #303030;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     font-style: italic;
+    color: var(--primary-color);
 }
 
 .project-card-link {
     width: 325px;
     height: 50px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .project-card-link a {
     text-decoration: none;
     width: 325px;
     height: 50px;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,5 +133,15 @@
         flex-wrap: wrap;
         justify-content: center;
         grid-gap: 20px;
+    }
+
+    .project-card-image {
+        width: 325px;
+        height: 160px;
+    }
+    
+    .project-card-image img {
+        width: 325px;
+        height: 160px;
     }
 }

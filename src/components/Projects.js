@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Projects.css"
-import todoImg from "../assets/todo-app.png"
-import pizzaImg from "../assets/pizza-app.png"
+import todoImg from "../assets/portfolio-mockup.png"
+import pizzaImg from "../assets/portfolio-mockup.png"
 
 const Projects = () => {
     const projectsList = [
