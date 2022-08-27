@@ -33,23 +33,25 @@ const Contact = () => {
                     value={userName}
                     onChange={event => setUserName(event.target.value)}
                     name="user_name"
+                    className='contact-input'
                 />
 
                 <label>Email</label>
-                <input type="email" 
-                value={userEmail} 
-                onChange={event => setUserEmail(event.target.value)}
-                name="user_email" 
+                <input type="email"
+                    value={userEmail}
+                    onChange={event => setUserEmail(event.target.value)}
+                    name="user_email"
+                    className='contact-input'
                 />
 
                 <label>Message</label>
-                <textarea name="message" 
-                value={message} 
-                onChange={event => setMessage(event.target.value)}
-                rows={4} 
+                <textarea name="message"
+                    value={message}
+                    onChange={event => setMessage(event.target.value)}
+                    rows={4}
                 />
 
-                <input type="submit" value="Send" />
+                <input type="submit" value="Send" className='submit-button' />
             </form>
 
         </div>
