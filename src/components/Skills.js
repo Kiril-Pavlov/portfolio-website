@@ -35,7 +35,7 @@ const Skills = () => {
             <div className='skill-cards-container'>
                 {skillsList.map((item) => {
                     return (
-                        <div className='skill-card'>
+                        <div className='skill-card' key={item.skillName}>
                             <div className='skill-img-container'>
                                 <img src={item.img} alt={item.skillName} className="skill-img" />
                             </div>

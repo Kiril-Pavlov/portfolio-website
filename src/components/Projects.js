@@ -20,11 +20,11 @@ const Projects = () => {
             url: "https://pizza-app-react-kiril.netlify.app/"
         },
         {
-            name: "Pizza App",
+            name: "Blank Project",
             img: `${pizzaImg}`,
-            description: "Pizza App in React with MongoDB backend",
-            skills: ["html", "css", "react.jd", "mongodb"],
-            url: "https://pizza-app-react-kiril.netlify.app/"
+            description: "Short description for the project",
+            skills: ["skill", "skill", "skill", "skill"],
+            url: "#"
         }
     ]
     return (
