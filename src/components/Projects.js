@@ -1,26 +1,25 @@
 import React from 'react'
 import "./Projects.css"
-import todoImg from "../assets/portfolio-mockup.png"
-import pizzaImg from "../assets/portfolio-mockup.png"
+import pizzaImg from "../assets/pizza-app-mockup.png"
 
 const Projects = () => {
     const projectsList = [
         {
-            name: "ToDo App",
-            img: `${todoImg}`,
-            description: "A ToDo App using React.js",
-            skills: ["html", "css", "react.js"],
-            url: "https://pizza-app-react-kiril.netlify.app/"
-        },
-        {
             name: "Pizza App",
             img: `${pizzaImg}`,
-            description: "Pizza App in React with MongoDB backend",
-            skills: ["html", "css", "react.jd", "mongodb"],
+            description: "Pizza App for exercise purposes. For the frontend I used React.js and fotr the backend I used mongoDB.",
+            skills: ["html", "css", "react.js", "mongodb"],
             url: "https://pizza-app-react-kiril.netlify.app/"
         },
         {
-            name: "Blank Project",
+            name: "Blank Project 1",
+            img: `${pizzaImg}`,
+            description: "Short description for the project",
+            skills: ["skill", "skill", "skill", "skill"],
+            url: "https://pizza-app-react-kiril.netlify.app/"
+        },
+        {
+            name: "Blank Project 2",
             img: `${pizzaImg}`,
             description: "Short description for the project",
             skills: ["skill", "skill", "skill", "skill"],
