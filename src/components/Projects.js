@@ -1,22 +1,23 @@
 import React from 'react'
 import "./Projects.css"
 import pizzaImg from "../assets/pizza-app-mockup.png"
+import movieImg from "../assets/movie-app.png"
 
 const Projects = () => {
     const projectsList = [
         {
-            name: "Pizza App",
+            name: "Pizza Store App",
             img: `${pizzaImg}`,
-            description: "Pizza App for exercise purposes. For the frontend I used React.js and fotr the backend I used mongoDB.",
+            description: "Pizza Store App for exercise purposes. For the frontend I used React.js and for the backend I used mongoDB.",
             skills: ["html", "css", "react.js", "mongodb"],
             url: "https://pizza-app-react-kiril.netlify.app/"
         },
         {
-            name: "Blank Project 1",
-            img: `${pizzaImg}`,
-            description: "Short description for the project",
-            skills: ["skill", "skill", "skill", "skill"],
-            url: "https://pizza-app-react-kiril.netlify.app/"
+            name: "Movie App",
+            img: `${movieImg}`,
+            description: "Movie App for exercise purposes. For the frontend I used React.js and the backend movie data is from the https://yts.torrentbay.to/api API.",
+            skills: ["html", "css", "react"],
+            url: "https://github.com/Kiril-Pavlov/react-movie-app"
         },
         {
             name: "Blank Project 2",
