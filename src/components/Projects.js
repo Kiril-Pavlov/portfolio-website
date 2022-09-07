@@ -2,6 +2,7 @@ import React from 'react'
 import "./Projects.css"
 import pizzaImg from "../assets/pizza-app-mockup.png"
 import movieImg from "../assets/movie-app.png"
+import todoImg from "../assets/todo-app-mockup.png"
 
 const Projects = () => {
     const projectsList = [
@@ -20,11 +21,11 @@ const Projects = () => {
             url: "https://github.com/Kiril-Pavlov/react-movie-app"
         },
         {
-            name: "Blank Project 2",
-            img: `${pizzaImg}`,
-            description: "Short description for the project",
-            skills: ["skill", "skill", "skill", "skill"],
-            url: "#"
+            name: "Todo App",
+            img: `${todoImg}`,
+            description: "Todo App for exercise purposes. I created this project with React.js. The data you enter is saved in localStorage.",
+            skills: ["html", "css", "react"],
+            url: "https://todoapp.pavlov.mk/"
         }
     ]
     return (
