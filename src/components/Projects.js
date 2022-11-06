@@ -3,6 +3,8 @@ import "./Projects.css"
 import pizzaImg from "../assets/pizza-app-mockup.png"
 import movieImg from "../assets/movie-app.png"
 import todoImg from "../assets/todo-app-mockup.png"
+import bookmarkImg from "../assets/bookmark-app-mockup.png"
+import durotanImg from "../assets/durotan-site-mockup.png"
 
 const Projects = () => {
     const projectsList = [
@@ -26,6 +28,20 @@ const Projects = () => {
             description: "Todo App for exercise purposes. I created this project with React.js. The data you enter is saved in localStorage.",
             skills: ["html", "css", "react"],
             url: "https://todoapp.pavlov.mk/"
+        },
+        {
+            name: "Bookmark App",
+            img: `${bookmarkImg}`,
+            description: "Bookmark Website is a clone of a given design of a landing page.",
+            skills: ["html", "css", "react"],
+            url: "https://bookmark-clone-site.netlify.app/"
+        },
+        {
+            name: "Durotan Website",
+            img: `${durotanImg}`,
+            description: "Durotan Website is a clone from a given design for a website for selling clothes and accessories.",
+            skills: ["html", "css", "react","bootstrap"],
+            url: "https://durotan-clone-site.netlify.app/"
         }
     ]
     return (
