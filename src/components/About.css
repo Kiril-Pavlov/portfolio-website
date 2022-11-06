@@ -24,6 +24,7 @@
 
 .about-image img{
     box-shadow: 5px 5px 5px gray;
+    border-radius: 100%;
 }
 
 .about-content{
