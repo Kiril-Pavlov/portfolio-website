@@ -9,7 +9,7 @@
 }
 
 .about-container{
-    margin: 0px 15%;
+    margin: 0px 10%;
     padding: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -17,7 +17,7 @@
 
 .about-image{
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     
 }
@@ -25,6 +25,7 @@
 .about-image img{
     box-shadow: 5px 5px 5px gray;
     border-radius: 100%;
+    height: 300px;
 }
 
 .about-content{
@@ -38,9 +39,10 @@
 .about-content p{
     padding: 20px;
     text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media  screen and (max-width: 900px) {
+@media  screen and (max-width: 1000px) {
     .about-title{
         padding: 15px;
         margin: 15px 15%;
