@@ -5,6 +5,7 @@ import movieImg from "../assets/movie-app.png"
 import todoImg from "../assets/todo-app-mockup.png"
 import bookmarkImg from "../assets/bookmark-app-mockup.png"
 import durotanImg from "../assets/durotan-site-mockup.png"
+import tipCalcImg from "../assets/tip-calc-mockup.png"
 
 const Projects = () => {
     const projectsList = [
@@ -42,6 +43,13 @@ const Projects = () => {
             description: "Durotan Website is a clone from a given design for a website for selling clothes and accessories.",
             skills: ["html", "css", "react","bootstrap"],
             url: "https://durotan-clone-site.netlify.app/"
+        },
+        {
+            name: "Tip Calculator",
+            img: `${tipCalcImg}`,
+            description: "Tip Calculator App thet calculates the amount each person has to pay according to the total bill, selected percent of a tip and number of people",
+            skills: ["html", "css", "react"],
+            url: "https://tip-splitter-calc.netlify.app/"
         }
     ]
     return (
