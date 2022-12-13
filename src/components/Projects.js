@@ -1,11 +1,14 @@
 import React from 'react'
 import "./Projects.css"
+
 import pizzaImg from "../assets/pizza-app-mockup.png"
 import movieImg from "../assets/movie-app.png"
 import todoImg from "../assets/todo-app-mockup.png"
 import bookmarkImg from "../assets/bookmark-app-mockup.png"
 import durotanImg from "../assets/durotan-site-mockup.png"
 import tipCalcImg from "../assets/tip-calc-mockup.png"
+import linkShorteningImg from "../assets/link-shortening-mockup.png"
+import getAdviceImg from "../assets/get-advice-mockup.png"
 
 const Projects = () => {
     const projectsList = [
@@ -31,6 +34,13 @@ const Projects = () => {
             url: "https://todoapp.pavlov.mk/"
         },
         {
+            name: "Link Shortening App",
+            img: `${linkShorteningImg}`,
+            description: "Clone of a website where you can shorten a website URL by using API.",
+            skills: ["html", "css", "react", "API"],
+            url: "https://url-shortening-app-kiril.netlify.app/"
+        },
+        {
             name: "Bookmark App",
             img: `${bookmarkImg}`,
             description: "Bookmark Website is a clone of a given design of a landing page.",
@@ -50,6 +60,13 @@ const Projects = () => {
             description: "Tip Calculator App thet calculates the amount each person has to pay according to the total bill, selected percent of a tip and number of people",
             skills: ["html", "css", "react"],
             url: "https://tip-splitter-calc.netlify.app/"
+        },
+        {
+            name: "Advice Generator App",
+            img: `${getAdviceImg}`,
+            description: "Random advice generator from API",
+            skills: ["html", "css", "react", "API"],
+            url: "https://get-advice-app-kiril.netlify.app/"
         }
     ]
     return (
